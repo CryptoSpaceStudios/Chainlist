@@ -125,7 +125,55 @@ function Home({ changeTheme, theme }) {
     <div className={styles.container}>
       <Head>
         <title>Chainlist</title>
+        
+        <meta charSet="utf-8" />
+        <meta httpEquiv="Cache-control" content="public" />
+
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="author" content="CryptoSpaceStudios.com" />
+        <meta name="description" content="EVM Chainlist  is a list of EVM networks. Users can use the information to connect their wallets and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain. - Powered By CryptoSpaceStudios" />
+        <meta name="googlebot" content="index" />
+        <meta name="google" content="pagereadaloud" />
+        <meta name="keywords" content="cryptospacestudios, crypto space studios, blockchain development, chainlist, evm, metamask, blockchain, EVM networks, Chain ID, Network ID, Web3 Middleware, EVM powered networks" />
+        <meta name="msapplication-TileColor" content="#ffffff" />
+        <meta name="msapplication-TileImage" content="icons/ms-icon-144x144.png" />
+        <meta name="robots" content="follow" />
+        <meta name="theme-color" content="#ffffff" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+        <meta property="og:description" content="EVM Chainlist  is a list of EVM networks. Users can use the information to connect their wallets and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain. - Powered By CryptoSpaceStudios" />
+        <meta property="og:image" content="icons/apple-icon-152x152.png" />
+        <meta property="og:image" content="icons/apple-icon-180x180.png" />
+        <meta property="og:image:alt" content="Chainlist Image" />
+        <meta property="og:image:secure_url" content="icons/apple-icon-152x152.png" />
+        <meta property="og:image:secure_url" content="icons/apple-icon-180x180.png" />
+        <meta property="og:image:type" content="image/jpeg" />
+        <meta property="og:locale" content="en_US" />
+        <meta property="og:site_name" content="EVM Chainlist - Powered By CryptoSpaceStudios" />
+        <meta property="og:title" content="EVM Chainlist - Powered By CryptoSpaceStudios" />
+        <meta property="og:type" content="website" />
+        <meta property="og:url" content="https://chainlist.cryptospacestudios.com/" />
+
+        <link rel="apple-touch-icon" sizes="57x57" href="icons/apple-icon-57x57.png" />
+        <link rel="apple-touch-icon" sizes="60x60" href="icons/apple-icon-60x60.png" />
+        <link rel="apple-touch-icon" sizes="72x72" href="icons/apple-icon-72x72.png" />
+        <link rel="apple-touch-icon" sizes="76x76" href="icons/apple-icon-76x76.png" />
+        <link rel="apple-touch-icon" sizes="114x114" href="icons/apple-icon-114x114.png" />
+        <link rel="apple-touch-icon" sizes="120x120" href="icons/apple-icon-120x120.png" />
+        <link rel="apple-touch-icon" sizes="144x144" href="icons/apple-icon-144x144.png" />
+        <link rel="apple-touch-icon" sizes="152x152" href="icons/apple-icon-152x152.png" />
+        <link rel="apple-touch-icon" sizes="180x180" href="icons/apple-icon-180x180.png" />
+
+        <link rel="canonical" href="https://chainlist.cryptospacestudios.com/" />
+
         <link rel="icon" href="/favicon.png" />
+        <link rel="icon" type="image/x-icon" href="/images/icons/favicon.ico" />
+        <link rel="icon" type="image/png" sizes="192x192"  href="icons/android-icon-192x192.png" />
+        <link rel="icon" type="image/png" sizes="32x32" href="icons/favicon-32x32.png" />
+        <link rel="icon" type="image/png" sizes="96x96" href="icons/favicon-96x96.png" />
+        <link rel="icon" type="image/png" sizes="16x16" href="icons/favicon-16x16.png" />
+
+        <link rel="manifest" href="icons/manifest.json" />
       </Head>
 
       <main className={styles.main}>
