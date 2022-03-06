@@ -124,7 +124,7 @@ function Home({ changeTheme, theme }) {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Chainlist</title>
+        <title>Chainlist  is a list of EVM networks</title>
         
         <meta charSet="utf-8" />
         <meta httpEquiv="Cache-control" content="public" />
@@ -144,13 +144,14 @@ function Home({ changeTheme, theme }) {
         <meta property="og:description" content="EVM Chainlist  is a list of EVM networks. Users can use the information to connect their wallets and Web3 middleware providers to the appropriate Chain ID and Network ID to connect to the correct chain. - Powered By CryptoSpaceStudios" />
         <meta property="og:image" content="icons/apple-icon-152x152.png" />
         <meta property="og:image" content="icons/apple-icon-180x180.png" />
+        <meta property="og:image" content="/chainlist.png"
         <meta property="og:image:alt" content="Chainlist Image" />
         <meta property="og:image:secure_url" content="icons/apple-icon-152x152.png" />
         <meta property="og:image:secure_url" content="icons/apple-icon-180x180.png" />
         <meta property="og:image:type" content="image/jpeg" />
         <meta property="og:locale" content="en_US" />
         <meta property="og:site_name" content="EVM Chainlist - Powered By CryptoSpaceStudios" />
-        <meta property="og:title" content="EVM Chainlist - Powered By CryptoSpaceStudios" />
+        <meta property="og:title" content="Chainlist  is a list of EVM networks" />
         <meta property="og:type" content="website" />
         <meta property="og:url" content="https://chainlist.cryptospacestudios.com/" />
 
